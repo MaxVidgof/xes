@@ -2,7 +2,8 @@
 XES
 ===========
 
-This project is on Github: https://github.com/jsumrall/xes
+This project is on Github: https://github.com/MaxVidgof/xes
+Original project: https://github.com/jsumrall/xes
 
 
 
@@ -18,7 +19,7 @@ As usual, examples are the best way to see what this does.
 
 Example usage looks like this::
 
-    #!/usr/bin/env python
+    #!/usr/bin/env python3
 
     import xes
 
@@ -67,7 +68,14 @@ Example usage looks like this::
         xes.Classifier(name="concept:name",keys="concept:name")
     ]
 
-    open("example.xes", "w").write(str(log))
+    with open("example.xes", "w") as f.
+        f.write(str(log))
 
 
-
+Installation:
+1. Clone this repository
+git clone https://github.com/MaxVidgof/xes
+2. cd into the directory
+cd xes
+3. Install from local directory
+pip install . 
